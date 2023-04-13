@@ -1,0 +1,22 @@
+{
+  "color": {
+    "font": {
+      "base"     : { "value": "{color.base.red.value}" },
+      "secondary": { "value": "{color.base.green.value}" },
+      "tertiary" : { "value": "{color.base.gray.light.value}" },
+      "oiuyt": {"value": {
+        "fontSize": 11,
+        "textDecoration": "none",
+        "fontFamily": "Source Sans Pro",
+        "fontWeight": 400,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 0.6,
+        "lineHeight": 13.2,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "uppercase"
+      }}
+    }
+  }
+}
