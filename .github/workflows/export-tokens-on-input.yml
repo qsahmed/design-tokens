@@ -3,7 +3,7 @@ name: Generate Tokens On Input
 on:
   push:
     paths:	
-      - 'input/design-tokens.json'
+      - 'input/tokens.json'
 
 jobs:
   generate_tokens:
@@ -16,7 +16,7 @@ jobs:
     - name: Install Node Dependencies
       run: npm install
     - name: Build Style Dictionary
-      run: npm run build
+      run: npm run gen-styles
     - name: Commit Generated Platform Deliverables
       id: "auto-commit-action"
       uses: stefanzweifel/git-auto-commit-action@v4

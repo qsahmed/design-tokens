@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "transform": "token-transformer --expandTypography=true --expandShadow=true --expandComposition=true --expandBorder=true input/design-tokens.json input/tokens.json global",
     "build": "style-dictionary build",
-    "custom": "style-dictionary build --config ./sd.config.js"
+    "custom": "style-dictionary build --config ./sd.config.js",
+    "gen-styles": "npm run transform && npm run build"
   },
   "repository": {
     "type": "git",
