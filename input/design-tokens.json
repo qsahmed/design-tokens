@@ -52,7 +52,7 @@
     },
     "Primary": {
       "Primary Navy": {
-        "value": "#0c3980",
+        "value": "#15800b",
         "type": "color"
       },
       "Aqua": {
@@ -973,5 +973,11 @@
         "type": "dimension"
       }
     }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global"
+    ]
   }
 }
