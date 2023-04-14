@@ -3,7 +3,7 @@ name: Generate Tokens On Input
 on:
   push:
     paths:	
-      - 'input/tokens.json'
+      - 'input/design-tokens.json'
 
 jobs:
   generate_tokens:
